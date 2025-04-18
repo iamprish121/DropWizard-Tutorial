@@ -2,3 +2,19 @@ logging:
   level: INFO
   loggers:
     com.company: DEBUG
+mySetting: ${MY_ENV_SETTING:-Hello from default}
+health:
+  delayedShutdownHandlerEnabled: true
+  shutdownWaitPeriod: 10s
+  healthChecks:
+    - name: user-database
+      critical: true
+    - name: user-notifications-queue
+      critical: false
+      schedule:
+        checkInterval: 2500ms
+        downtimeInterval: 10s
+        failureAttempts: 2
+        successAttempts: 1
+    - name: user-cache
+      critical: false

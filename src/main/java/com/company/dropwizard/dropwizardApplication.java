@@ -5,6 +5,8 @@ import com.company.dropwizard.resources.helloWorldResource;
 import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
+import io.dropwizard.configuration.EnvironmentVariableSubstitutor;
+import io.dropwizard.configuration.SubstitutingSourceProvider;
 
 public class dropwizardApplication extends Application<dropwizardConfiguration> {
 
@@ -20,6 +22,10 @@ public class dropwizardApplication extends Application<dropwizardConfiguration> 
     @Override
     public void initialize(final Bootstrap<dropwizardConfiguration> bootstrap) {
         // TODO: application initialization
+        EnvironmentVariableSubstitutor substitutor = new EnvironmentVariableSubstitutor(false);
+        bootstrap.setConfigurationSourceProvider(
+                new SubstitutingSourceProvider(bootstrap.getConfigurationSourceProvider(), substitutor)
+        );
     }
 
     @Override
@@ -29,9 +35,11 @@ public class dropwizardApplication extends Application<dropwizardConfiguration> 
         environment.healthChecks().register("Healthy", new HealthCheck() {
             @Override
             protected Result check() throws Exception {
-                return Result.unhealthy("NOT READY");
+                return Result.healthy();
+//                return Result.unhealthy("NOT READY");
             }
         });
+        System.out.println("mySetting = " + configuration.getMySetting());
     }
 
 }
