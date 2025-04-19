@@ -5,7 +5,7 @@ import javax.ws.rs.Path;
 
 
 @Path("/hello")
-public class helloWorldResource {
+public class HelloWorldResource {
 
     @GET
     public String get(){

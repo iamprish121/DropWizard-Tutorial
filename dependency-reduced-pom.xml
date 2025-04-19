@@ -121,7 +121,7 @@
   </dependencyManagement>
   <properties>
     <dropwizard.version>2.0.0</dropwizard.version>
-    <mainClass>com.company.dropwizard.dropwizardApplication</mainClass>
+    <mainClass>com.company.dropwizard.DropwizardApplication</mainClass>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>
