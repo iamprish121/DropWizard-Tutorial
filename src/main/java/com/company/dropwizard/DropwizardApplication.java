@@ -30,6 +30,9 @@ public class DropwizardApplication extends Application<DropwizardConfiguration>{
 
         // Serve everything in /assets at the root ("/")
 //        bootstrap.addBundle(new AssetsBundle("/assets/", "/"));
+
+//        Command
+        bootstrap.addCommand(new MyCommand());
     }
 
     @Override

@@ -1,4 +1,6 @@
-com\company\dropwizard\resources\helloWorldResource.class
-com\company\dropwizard\dropwizardApplication.class
-com\company\dropwizard\dropwizardApplication$1.class
-com\company\dropwizard\dropwizardConfiguration.class
+com\company\dropwizard\DropwizardApplication$1.class
+com\company\dropwizard\MyCommand.class
+com\company\dropwizard\MyConfiguredBundleConfig.class
+com\company\dropwizard\DropwizardApplication.class
+com\company\dropwizard\resources\HelloWorldResource.class
+com\company\dropwizard\DropwizardConfiguration.class

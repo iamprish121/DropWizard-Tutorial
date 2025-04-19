@@ -2,6 +2,13 @@ logging:
   level: INFO
   loggers:
     com.company: DEBUG
+  appenders:
+    - type: console
+    - type: file
+      currentLogFilename: logs/application.log
+      archivedLogFilenamePattern: logs/application-%d.log.gz
+      archivedFileCount: 5
+      timeZone: UTC
 mySetting: ${MY_ENV_SETTING:-Hello from default}
 health:
   delayedShutdownHandlerEnabled: true

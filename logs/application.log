@@ -1,0 +1,30 @@
+INFO  [2025-04-19 09:17:56,036] io.dropwizard.server.DefaultServerFactory: Registering jersey handler with root path prefix: /
+INFO  [2025-04-19 09:17:56,038] io.dropwizard.server.DefaultServerFactory: Registering admin handler with root path prefix: /
+INFO  [2025-04-19 09:17:56,149] io.dropwizard.server.ServerFactory: Starting dropwizard
+================================================================================
+
+                              dropwizard
+
+================================================================================
+
+INFO  [2025-04-19 09:17:56,212] org.eclipse.jetty.setuid.SetUIDListener: Opened application@281f23f2{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+INFO  [2025-04-19 09:17:56,212] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@87abc48{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+INFO  [2025-04-19 09:17:56,214] org.eclipse.jetty.server.Server: jetty-9.4.24.v20191120; built: 2019-11-20T21:37:49.771Z; git: 363d5f2df3a8a28de40604320230664b9c793c16; jvm 18.0.1+10-24
+INFO  [2025-04-19 09:17:56,540] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+
+    GET     /hello (com.company.dropwizard.resources.HelloWorldResource)
+
+INFO  [2025-04-19 09:17:56,542] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@38f77cd9{/,null,AVAILABLE}
+INFO  [2025-04-19 09:17:56,545] io.dropwizard.setup.AdminEnvironment: tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+INFO  [2025-04-19 09:17:56,549] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@54755dd9{/,null,AVAILABLE}
+INFO  [2025-04-19 09:17:56,569] org.eclipse.jetty.server.AbstractConnector: Started application@281f23f2{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+INFO  [2025-04-19 09:17:56,578] org.eclipse.jetty.server.AbstractConnector: Started admin@87abc48{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+INFO  [2025-04-19 09:17:56,581] org.eclipse.jetty.server.Server: Started @1516ms
+INFO  [2025-04-19 09:18:54,421] org.eclipse.jetty.server.AbstractConnector: Stopped application@281f23f2{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+INFO  [2025-04-19 09:18:54,423] org.eclipse.jetty.server.AbstractConnector: Stopped admin@87abc48{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+INFO  [2025-04-19 09:18:54,424] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@54755dd9{/,null,UNAVAILABLE}
+INFO  [2025-04-19 09:18:54,430] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@38f77cd9{/,null,UNAVAILABLE}
