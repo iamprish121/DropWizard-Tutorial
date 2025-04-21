@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57d7d198-5eab-4998-8b77-f234ad7789a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/dropwizard/MyCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/dropwizard/DropwizardApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/dropwizard/DropwizardApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/dropwizard/DropwizardConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/dropwizard/DropwizardConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/dropwizard/dropwizardApplication$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/dropwizard/dropwizardApplication$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/dropwizard/dropwizardApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/dropwizard/dropwizardApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/dropwizard/dropwizardConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/dropwizard/dropwizardConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/dropwizard/resources/helloWorldResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/dropwizard/resources/helloWorldResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dropwizard-1.0-SNAPSHOT-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/dropwizard-1.0-SNAPSHOT-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dropwizard-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/dropwizard-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/original-dropwizard-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-dropwizard-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
